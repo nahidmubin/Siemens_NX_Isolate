@@ -3,6 +3,10 @@
 
 Installation Procedure for Windows:
 
+Video Instruction:
+https://www.youtube.com/watch?v=A8DNRimhI_w
+
+Text Instruction:
 1. Copy the "SIEMENS NX Isolate Body" folder to C drive.
    So the path to the folder will be "C:\SIEMENS NX Isolate Body"
 
