@@ -65,6 +65,11 @@ def isolate_body() :
     
         # Remove selected bodies from bodies_to_hide list
         number_of_object = theUI.SelectionManager.GetNumSelectedObjects()
+        
+        # Check whether selection exists or not
+        if number_of_object == 0:
+            return theUFSession.Ui.DisplayMessage("Nothing Selected.", 1)
+        
         for i in range(number_of_object):
             # Get Body from selection
             object = theUI.SelectionManager.GetSelectedTaggedObject(i)
